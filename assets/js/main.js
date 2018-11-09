@@ -6,8 +6,7 @@ function initialize(){
 	board.createBoxes();
 }
 
-const Board = (name) => {
-	this.name = name;
+function Board() {
 	this.createBoxes = function() {
 		console.log('hello');
 	}

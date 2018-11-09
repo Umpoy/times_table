@@ -1,1 +1,6 @@
-style.css
+.board {
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
