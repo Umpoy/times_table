@@ -1,13 +1,14 @@
 
 $(document).ready(initialize);
 
-
-
-const Board = () => {
-	this.name = 'ia'
+function initialize(){
+	const board = new Board();
+	board.createBoxes();
 }
 
-function initialize(){
-	const createBoard = new Board();
-	createBoard().name;
+const Board = (name) => {
+	this.name = name;
+	this.createBoxes = function() {
+		console.log('hello');
+	}
 }
